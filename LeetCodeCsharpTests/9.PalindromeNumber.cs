@@ -1,5 +1,4 @@
-﻿using LeetCodeCsharp;
-using LeetCodeCSharp;
+﻿using LeetCodeCSharp;
 
 namespace LeetCodeCsharpTests
 {
@@ -10,21 +9,13 @@ namespace LeetCodeCsharpTests
         public PalindromeNumberTests() { Solution = new PalindromeNumberSolution(); }
 
         [Test]
-        public void Test1()
-        {
+        public void PositiveNumber() 
+        { 
             Assert.That(Solution.IsPalindrome(121), Is.EqualTo(true));
-        }
-
-        [Test]
-        public void Test2()
-        {
-            Assert.That(Solution.IsPalindrome(-121), Is.EqualTo(false));
-        }
-
-        [Test]
-        public void Test3()
-        {
             Assert.That(Solution.IsPalindrome(10), Is.EqualTo(false));
-        }
+        } 
+
+        [Test]
+        public void NegativeNumber() => Assert.That(Solution.IsPalindrome(-121), Is.EqualTo(false));
     }
 }
