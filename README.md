@@ -7,4 +7,4 @@ LeetCode
 
 | # | Title | Solution | Test | Difficulty | 
 |---| ----- | -------- | ---- | ---------- |
-|1|[Two Sum]| [C++], [Go]|  ||| |Easy|
+|1|[Name]|[C#]|  ||| |Easy|
